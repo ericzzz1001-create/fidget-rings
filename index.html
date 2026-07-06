@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fidget Rings - Premium Stress Relief</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">🌀 Fidget Rings</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#cart" class="cart-icon">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Spin Away Stress</h1>
+                <p>Premium fidget rings for focus and relaxation</p>
+                <button class="btn btn-primary" onclick="scrollToShop()">Shop Now</button>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="shop" class="shop">
+            <div class="container">
+                <h2>Our Collection</h2>
+                <div class="products-grid" id="products-grid">
+                    <!-- Products will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Why Choose Our Fidget Rings?</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>🏆 Premium Quality</h3>
+                        <p>Crafted with high-quality materials for durability and comfort.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>✨ Stylish Designs</h3>
+                        <p>Available in multiple colors and styles to match your personality.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>🧠 Stress Relief</h3>
+                        <p>Scientifically proven to reduce anxiety and improve focus.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>🚀 Fast Shipping</h3>
+                        <p>Free shipping on orders over $50. Delivered in 3-5 business days.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <form class="contact-form" id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCart()">&times;</span>
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+            <div class="cart-total">
+                <h3>Total: $<span id="total-price">0.00</span></h3>
+            </div>
+            <button class="btn btn-primary btn-full" onclick="checkout()">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fidget Rings. All rights reserved.</p>
+            <p>Contact: info@fidgetrings.com | Phone: 1-800-FIDGET-1</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
