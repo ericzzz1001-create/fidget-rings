@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fidget Rings - Premium Spin Rings</title>
+    <title>Fidget Rings - Stress Relief for Young Minds</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,7 +12,9 @@
         <div class="nav-container">
             <div class="logo">💍 Fidget Rings</div>
             <div class="nav-links">
+                <a href="#about">About</a>
                 <a href="#shop">Shop</a>
+                <a href="#benefits">Benefits</a>
                 <a href="#contact">Contact</a>
                 <span class="cart-icon">🛒 <span id="cart-count">0</span></span>
             </div>
@@ -22,15 +24,111 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Premium Fidget Rings</h1>
-            <p>Stress relief meets style. Spin your way to calm.</p>
-            <button class="btn btn-primary" onclick="scrollToShop()">Shop Now</button>
+            <h1>Find Your Calm with Fidget Rings</h1>
+            <p>Breaking bad habits, one spin at a time</p>
+            <p class="hero-subtitle">Designed for stressed young individuals seeking mindful relief</p>
+            <button class="btn btn-primary" onclick="scrollToShop()">Explore Our Collection</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2>Why Fidget Rings?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>In today's fast-paced world, stress and anxiety affect millions of young people. Fidgeting is a natural response to stress, but it can sometimes manifest as harmful habits—nail biting, hair pulling, or constant phone scrolling.</p>
+                    
+                    <p><strong>Fidget Rings offer a healthy alternative.</strong> These beautifully crafted rings provide a discreet, socially acceptable way to channel nervous energy and anxiety into a calming, repetitive motion.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature-box">
+                        <span class="feature-icon">🧠</span>
+                        <h3>Reduces Anxiety</h3>
+                        <p>The repetitive spinning motion activates the parasympathetic nervous system, naturally reducing stress levels.</p>
+                    </div>
+                    <div class="feature-box">
+                        <span class="feature-icon">🎯</span>
+                        <h3>Breaks Bad Habits</h3>
+                        <p>Replace harmful nervous habits with a positive, constructive fidget that keeps your hands occupied.</p>
+                    </div>
+                    <div class="feature-box">
+                        <span class="feature-icon">✨</span>
+                        <h3>Stylish & Discreet</h3>
+                        <p>Wear them as jewelry. Nobody needs to know you're managing your stress with style.</p>
+                    </div>
+                    <div class="feature-box">
+                        <span class="feature-icon">🧘</span>
+                        <h3>Mindfulness Tool</h3>
+                        <p>Perfect for meditation, study sessions, or calming moments throughout your day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Feel the Urge</h3>
+                <p>When stress, anxiety, or that urge to bite your nails hits, reach for your fidget ring instead.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Spin & Release</h3>
+                <p>Gently spin the smooth band around your finger. The repetitive motion is naturally soothing.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Feel the Calm</h3>
+                <p>Let your nervous system relax as the tactile sensation redirects your anxiety into mindfulness.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Build Better Habits</h3>
+                <p>Over time, you'll naturally reach for your ring instead of harmful coping mechanisms.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <h2>Real Benefits for Your Mental Health</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <h3>For Students</h3>
+                <p>Stay focused during exams and lectures. The gentle fidgeting helps maintain concentration without distraction.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>For Anxiety Sufferers</h3>
+                <p>A portable, discreet tool for managing anxiety attacks and panic symptoms anywhere, anytime.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>For ADHD & Focus Issues</h3>
+                <p>Channel excess energy productively while improving attention span and cognitive function.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>For Habit Breakers</h3>
+                <p>Combat nail biting, hair pulling, and other nervous habits with a positive replacement behavior.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>For Meditation Practitioners</h3>
+                <p>Enhance your mindfulness practice with a tactile focus point that grounds you in the present moment.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>For Everyday Stress</h3>
+                <p>Perfect for work stress, social anxiety, or those overwhelming moments throughout your day.</p>
+            </div>
         </div>
     </section>
 
     <!-- Shop Section -->
     <section id="shop" class="shop">
         <h2>Our Collection</h2>
+        <p class="shop-subtitle">Each ring is carefully designed for maximum comfort and durability</p>
         <div id="products-grid" class="products-grid"></div>
     </section>
 
@@ -48,9 +146,29 @@
         </div>
     </div>
 
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p>"This ring literally changed my life. I used to bite my nails constantly, and now I can't even remember the last time I did. It's become my go-to stress reliever!"</p>
+                <p class="testimonial-author">— Sarah, 19</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"I was skeptical at first, but wearing this during my exams helped me focus way better. It's like having a stress-relief superpower on my finger."</p>
+                <p class="testimonial-author">— Marcus, 21</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"As someone with anxiety, having this ring discreetly on my finger makes me feel less alone with my struggles. It's beautiful AND functional."</p>
+                <p class="testimonial-author">— Emma, 20</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2>Get in Touch</h2>
+        <p class="contact-subtitle">Have questions? We're here to help on your journey to better mental health.</p>
         <form id="contact-form" class="contact-form">
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Your Email" required>
@@ -61,7 +179,8 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2024 Fidget Rings. All rights reserved.</p>
+        <p>&copy; 2024 Fidget Rings. Designed for mental wellness and positive change.</p>
+        <p>Remember: Fidget rings are tools for managing stress, not medical treatments. If you're struggling with mental health, please seek professional help.</p>
     </footer>
 
     <script src="script.js"></script>
